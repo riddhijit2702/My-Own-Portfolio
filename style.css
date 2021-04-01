@@ -1,7 +1,7 @@
 
  
  body {
-   background-color:rgb(128,128, 128)
+   background-image: url("blackish-red.jpg");
   
  }
  h1 { color:red ;
@@ -12,6 +12,7 @@
   } */
   p,h2{
      text-align: center; 
+background-color: lime;
   }
 
 a:link{
@@ -70,7 +71,7 @@ border: solid  black;
 position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%,-100%);
   opacity: 0;
 
 }
@@ -80,11 +81,11 @@ position: absolute;
 }
 
 .item:hover img{
-  opacity: 0.3;
-  
+  opacity: 0.5;
+  background-color: #ffffff;
 }
 
-/*.transbox {
+.transbox {
   position: relative;
   margin: 30px;
   background-color: #ffffff;
@@ -93,8 +94,12 @@ position: absolute;
 }
 
 .transbox p {
+  position: absolute;
+top: 100%;
+background-color: whitesmoke;
+ transform: translate(-60%,-400%);
   margin: 5%;
   font-weight: bold;
-  color: #000000;
+  color: red
 }
-*/
+
